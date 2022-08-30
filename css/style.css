@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+:root {
+	--grey: #262729;
+	--orange: #c4a11c;
+	--grren: #73a950;
+	--light-green: #6ba2b9;
+	--footer-black: #262729;
+	--footer-top-black: #1a1a1a;
+	--font-grey: #919191;
+	--back-color: #f5fbff;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif !important;
+}
+/********* navbar  **********/
+.topnav {
+	overflow: hidden;
+	background-color: hsl(220deg 4% 15%);
+  }
+.nav-item{
+	color: hsl(220deg 4% 15%);
+ }
+ .paradigm-img{
+  margin:0.7rem 3rem 0.7rem 3rem;
+ }
+ .topnav a {
+   float: left;
+   display: block;
+   color:hsl(180deg 1% 86%);
+   text-align: center;
+   padding: 14px 20px 16px 24px;
+   text-decoration: none;
+   font-size: 15px;
+ }
+ .p-2{
+   margin-top: 1.3+rem;
+	 font-size: 2rem;
+ }
+ .topnav a.active {
+   background-color: #04AA6D;
+   color: white;
+ }
+ .nav-item{
+	 margin-top: 20px;
+	 font-size: 1px;
+ }
+ .topnav .icon {
+   display: none;
+ }
+/********* BUILD WEALTH *********/
+.banner-1 {
+    
+	background: url(../assets/Content-Graphics/Header-Banner.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+    height: 55rem;
+	position: relative;
+}
+.banner-1-content h1 {
+	margin: 10px;
+	font-size: 4.9rem;
+	word-spacing: 1rem;
+}
+.banner-1-content {
+	padding-top: 4rem;
+	padding-bottom: 24rem;
+	font-size: 3rem;
+	text-align: center;
+	color: var(--grey);
+	font-weight: 300;
+}
+.banner-1-content h6{
+	margin-bottom: 10px;
+	font-size: 1.6rem	;
+}
+#banner-btn {
+	background-color: var(--grren);
+	font-size: 1.2rem;
+	padding:  1rem 2rem;
+	border-radius: 5px;
+	border-color: var(--grren) ;
+}
+/********** FEATURED IN *********/
+.banner-2 {
+	margin-top: 110rem;
+	background-color: white;
+	text-align: center;
+	margin: 1rem 5rem;
+	border-radius: 13px;
+	padding-top: 1rem;
+	position: inherit;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.move{
+	margin-top: 2rem;
+}
+.grid-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 2.2rem;
+}
+.grid-item {
+	margin: 1rem;
+	padding:1rem 1rem 2rem 3.1rem;
+	font-size: 30px;
+	text-align: center;
+}
+/********** SERVICES & BENIFITS *********/
+.banner-3 {
+	margin-top: 20rem;
+	text-align: center;
+	margin-bottom: 5rem;
+	padding: 1rem;
+}
+.banner-3-content span {
+	color: var(--grren);
+	font-size: 18px;
+}
+.banner-3-content p {
+	padding-left: 15rem;
+	padding-right: 15rem;
+	margin: 0.2rem;
+}
+.banner-3-content{
+	font-size: 2em;
+}
+#b-3-head{
+	font-size: 3.5rem;
+    color: hsl(345deg 6% 13%);
+	margin: 1px;
+}
+p {
+	font-size: 1.4rem;
+	color: hsl(0deg 0% 29%);
+}
+/********* Financial Solutions & Wealth Strategy ************/
+.banner-4 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.banner-4-content {
+	width: 30%;
+	margin-top: 4rem;
+	margin-left:7rem ;
+}
+.banner-4-img {
+	max-width: 100%;
+}
+.banner-4-content p {
+	color: var(--font-grey);
+	font-size: 18px;
+	line-height: 1.6rem;
+}
+.b4-logo{
+	font-size: 2rem;
+}
+/******** BENIFITS ********/
+.banner-5 {	
+	margin-top: 1rem;
+	text-align: center;
+	margin-bottom: 5rem;
+	padding: 1rem;
+}
+#b-5-head{
+	font-size: 3.5rem;
+    color: hsl(345deg 6% 13%);
+	margin-top: 1.2rem;
+	margin-bottom: 1rem;
+}
+.banner-5-content span {
+	color: var(--grren);
+	font-size: 18px;
+}
+.banner-5-content p {
+	padding-left: 5rem;
+	padding-right: 5rem;
+	margin: 0.2rem;
+	font-size: 1.3rem;
+}
+.banner-5-content{
+	font-size: em;
+}
+#b-3-head{
+	font-size: 3.5rem;
+    color: hsl(345deg 6% 13%);
+	margin: 1px;
+}
+p {
+	font-size: 1.4rem;
+	color: hsl(0deg 0% 29%);
+}
+.banner-6 {
+	margin: 3rem;
+	display: flex;
+	flex-direction: row;
+	grid-gap: 50px;
+	flex-wrap: wrap;
+	padding: 10px;
+	justify-content: center;
+}
+.banner-6-item {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 25px;
+	margin-left: 5px;
+	font-size: 30px;
+    width: 27%;
+}
+p.banner-6-content {
+	color: var(--font-grey);
+	font-size: 19px;
+}
+.banner-6-head {
+	color: hsl(0deg 4% 15%);
+	font-size: 1.6rem;
+	margin-bottom: 0;
+	margin-top: 1rem;
+}
+/********* 3 SIMPLE STEPS ************/
+.banner-7 {
+	padding-top: 2rem;
+	background-color: var(--back-color);
+}
+.banner-7-content {
+	background-color: var(--back-color);
+	padding-top: 0.3rem;
+	display: flex;
+	flex-direction: row;
+	grid-gap: 30px;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 10px;   
+}
+#b-7-span{
+	color: var(--grren);
+	font-size: 18px;
+}
+.banner-7-item {
+	background-color: var(--back-color);
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+}
+#banner-7-headline {	
+	font-size: 3.4rem;
+	margin-bottom: 1px;
+	margin-top: 3rem;
+	color: hsl(345deg 6% 13%);
+}
+.banner-7-head {
+	margin-top: 2rem;
+	width: 100%;
+	text-align: center;
+}
+p.banner-7-content {
+	color:hsl(240deg 0% 43%);
+	font-size: 1.2rem;
+	font-weight: 400;
+}
+/********* What is The Perpetual ************/
+.banner-8 {
+	background: url(../assets/Content-Graphics/growth-Graphic.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	padding: 7%;
+}
+.banner-8-content {
+	background-color: hsl(47deg 75% 44%);
+	color: white;
+	width: 41%;
+	border-radius: 1rem;
+	padding: 3.2rem 3rem;
+}
+#banner-8-head {
+	font-size: 3rem;
+	line-height: 3.2rem;
+	padding-bottom: 1rem;
+	color: hsl(0deg 0% 100%);
+}
+.banner-8-content p {
+	color: hsl(46deg 59% 89%);
+	margin: 0;
+	line-height: 35px;
+	font-size: 1.3rem;
+}
+.banner-9-content {
+	background-color: var(--back-color);
+	margin-top: 2.7rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.banner-9-item {
+	border-radius: 1.5rem 1.5rem 0 0;
+	background-color: var(--grren);
+	background-size: cover;
+	-webkit-background-size: cover;
+	height: 9rem;
+	padding-top: 1rem;
+	overflow: hidden;
+	position: relative;
+}
+#item-2 {
+	background-color:hsl(198deg 36% 57%);
+}
+#item-3 {
+	background-color: var(--orange);
+}
+.banner-9-item::after {
+	content: "";
+	width: 250%;
+	padding-top: 200%;
+	border-radius: 60%;
+	background: white;
+	position: absolute;
+	top: 7rem;
+	left: 10%;
+	transform: translateX(-34%);
+}
+.banner-9-img {
+	z-index: 10;
+	position: absolute;
+	top: 9%;
+	left: 36%;
+}
+.banner-9-2-1 {
+	border-radius: 1.5rem;
+	text-align: center;
+	margin-right: 5rem;
+	width: 24.5rem;
+	background-color: white;
+	margin-bottom: 3rem;
+	height: 22rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-9-2-2 {
+	border-radius: 1.5rem;
+	text-align: center;
+	margin-right: 5rem;
+    background-color: white;
+	width: 24.5rem;
+	height: 22rem;
+	margin-bottom: 3rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-9-2-3 {
+	border-radius: 1.5rem;
+	text-align: center;
+    background-color: white;
+	height: 22rem;
+	width: 24.5rem;
+	margin-bottom: 3rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-9-h2 {
+	color: hsl(198deg 36% 57%);
+	font-weight: 500;
+	font-size: 1.5rem;
+	margin-bottom: 0;
+}
+.banner-9-h1 {
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: var(--grren);
+	margin-bottom: 0;
+}
+.banner-9-h3 {
+	font-weight: 500;
+	font-size: 1.5rem;
+	color: var(--orange);
+	margin-bottom: 0;
+}
+.sm-font {
+	font-weight: 400;
+	color: hsl(0deg 0% 40%);
+	font-size: 1.1rem;
+	margin: 0.5rem;
+	line-height: 1.6rem;
+	background-color: white;	
+}
+   /* *********Ways to Use the Perpetual Wealth Strategy********** */
+.banner-10-content ul li {
+	font-size: 1.2rem;
+	margin-left: 5rem;
+	line-height: 4rem;
+	color: hsl(0deg 0% 29%);
+}
+.banner-10-btn-content{
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+.banner-btn-1{
+	padding:1rem 6rem;
+}
+.banner-10-head {
+	margin-top: 2rem;
+	text-align: center;
+}
+.banner-10 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;	
+}
+.banner-10-content {
+	width: 65%;
+	margin-top: 4rem;	
+}
+.banner-10-head-1{
+	width:30%;
+}
+.banner-10-img{
+	width: 30%;
+}
+.nav-btn{
+	background-color: hsl(96deg 36% 49%);
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.nav-btn-learn{
+	background-color: hsl(96deg 36% 49%);
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+button.nav-btn-learn {
+	padding: 1rem 6rem;
+	font-size: 1.2rem;
+}
+button.nav-btn {
+	padding: 1rem 1rem;
+	font-size: 0.9rem;
+}
+.color-or
+{
+ background-color: var(--orange);
+}
+.banner-11 {
+	color: white;
+	margin-top: 2rem;
+	background: url(../assets/Content-Graphics/wealth.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+	padding-top: 1.5rem;
+	padding-bottom: 5rem;
+}
+.banner-11-btn-content{
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+}
+#banner-11-p {
+	margin: 0;
+	font-size: 1.4rem;
+	margin-bottom: 2rem;
+	color: hsl(20deg 18% 97%);
+}
+.font-size{
+	font-weight: 300;
+}
+#banner-11-headline {
+	font-size: 4rem;
+	color:hsl(0deg 0% 100%);
+	margin-bottom: 1px;
+	font-weight:400;
+}
+.p-2 {
+	margin-top: 3rem;
+}
+input {
+	width: 25rem;
+	height: 3.1rem;
+	border-radius: 0.7rem;
+	margin: 1rem;
+	padding-left: 1rem;
+	font-size: 1rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border: white;
+}
+/* banner-12 */
+.banner-12-content-1 {
+	display: flex;
+	flex-direction: row;
+	grid-gap: 72px;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.banner-12-content ul li {
+	font-size: 1.2rem;
+	margin-left: 5rem;
+	line-height: 3rem;
+	color: hsl(0deg 0% 29%);
+}
+/* banner-14 */
+.banner-14 {
+	background-color: var(--footer-black);
+	display: flex;
+	flex-direction: row;
+	grid-gap: 20px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#footer-head {
+	color: var(--orange);
+	padding: 5px;
+	font-size: 1.2rem;
+}
+.flex-box {
+	display: flex;
+	flex-direction: row;
+	grid-gap: 20px;
+	flex-wrap: wrap;
+}
+.p-4 {
+	padding-top: 3.3rem;
+}
+.mt-3{
+  margin-top: 3rem;
+  background-color: hsl(0deg 0% 100%);
+	font-weight: 400;
+	color: hsl(0deg 0% 40%);
+	font-size: 1rem;
+	line-height: 1.6rem;
+}
+.col-1 {
+	margin-right: 5rem;
+
+}
+
+.col-1 p {
+	font-size: 1rem;
+	color: var(--font-grey);
+}
+img {
+	width: 100;
+}
+/* banner-13 */
+.banner-13-2-1 {
+	padding: 2rem;
+	margin-right: 3rem;
+	width: 19rem;
+	margin-bottom: 3rem;
+	height: 15rem;
+}
+.banner-13-2-2 {
+	height: 18rem;
+	padding: 2rem;
+	margin-right: 3rem;
+
+	width: 19rem;
+	margin-bottom: 3rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.banner-13-2-3 {
+	padding: 2rem;
+	height: 18rem;
+	margin-right: 3rem;
+	width: 19rem;
+	margin-bottom: 3rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.color-13{
+	background-color: hsl(0deg 0% 100%);
+	font-weight: 400;
+	color: hsl(0deg 0% 40%);
+	font-size: 1rem;
+	margin: 0.5rem;
+	line-height: 1.6rem;
+}
+.banner-13-content {
+	background-color: hsl(0deg 0% 100%);
+	padding-top: 4rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 4rem;
+	padding-bottom:3rem ;
+
+}
+.banner-13-h1 {
+
+	font-size: 2rem;
+}
+.testimonials {
+	color: var(--font-grey);
+}
+.footer{
+	margin: 0;
+
+	background-color: #1a1a1a;
+	color: #919191;
+	display: flex;
+	flex-direction: row;
+	
+	flex-wrap: wrap;
+	
+}
+.col-f-1{
+    width: 50%;
+	display: flex;
+	line-height: 1rem;
+}
+.col-f-1 span{
+	width: 50%;
+}
+.col-f-1 ul li{
+	width: 30%;
+	margin-left: 20rem;
+	margin-top: 0;
+	list-style: none;
+
+}
+.col-f-2{
+    width: 50%;
+}
